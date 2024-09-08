@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="shortcut icon" href="./images/favicon.webp" type="image/x-icon">
+
+  <!-- box icons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- header design -->
+  <header class="header">
+    <a href="/" class="logo"><img src="images/favicon.webp" alt="LOGO" /></a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- home section design -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello It's me</h3>
+      <h1>Vishal Rawat</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p>
+        "MERN Developer with 2+ years of hands-on experience in building and optimizing web applications. Skilled in
+        JavaScript, Typescript, React.js, Node.js, Express.js, and MongoDB. Experienced in integrating APIs,
+        implementing user authentication, and improving application performance. Strong team player with a focus on
+        delivering high-quality, scalable solutions."
+      </p>
+      <div class="social-media">
+        <a href="https://github.com/mastervishu" target="_blank"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/vishal-rawat-68318b1b8/" target="_blank"><i
+            class="bx bxl-linkedin"></i></a>
+      </div>
+      <a href="https://drive.google.com/file/d/1P919NsMc3xztWgDyUZQj5sBdKVTkwGlO/view?usp=sharing" class="btn"
+        target="_blank">View
+        CV</a>
+    </div>
+    <div class="home-img">
+      <img src="./images/vishu_picture.png" alt="" />
+    </div>
+  </section>
+
+  <!-- about section design -->
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="./images/aboutMe.png" alt="" />
+    </div>
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>[MERN] Full Stack Developer!</h3>
+      <p>
+        A MERN stack developer is an expert in leveraging MongoDB, Express.js, React.js, and Node.js for the development and upkeep of comprehensive web applications. Their proficiency spans both the client-side and server-side domains, enabling them to craft interactive user interfaces with React.js, develop server-side logic with
+        Node.js and Express.js, and orchestrate database operations with MongoDB. Their adeptness in utilizing JavaScript throughout the entire development stack facilitates the creation of sophisticated, robust, and swift web applications. This holistic approach to web development not only simplifies the development workflow but also boosts the scalability and maintainability of applications.
+      </p>
+      <!-- <a href="#" class="btn">Read More</a> -->
+    </div>
+  </section>
+
+  <!-- services section design -->
+
+  <!-- <section class="service" id="service">
+    <h2 class="heading">Our <span>Service</span></h2>
+
+    <div class="service-container">
+      <div class="service-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Web Development</h3>
+        <p>
+          Web development is the process of creating and maintaining websites and web applications, involving coding,
+          design, and functionality to deliver content and services on the internet.
+        </p>
+        <a href="#" class="btn"> Read More</a>
+      </div>
+
+      <div class="service-box">
+        <i class="bx bxs-paint"></i>
+        <h3>Graphic Design</h3>
+        <p>
+          Graphic design is the creative process of visual communication using images, typography, and layout to convey
+          ideas or messages effectively in various media.
+        </p>
+        <a href="#" class="btn"> Read More</a>
+      </div>
+
+      <div class="service-box">
+        <i class="bx bx-bar-chart-alt"></i>
+        <h3>Digital Marketing</h3>
+        <p>
+          Digital marketing encompasses online strategies to promote products or services, including SEO, social media,
+          email, and PPC advertising, aiming to reach and engage a wider digital audience for business growth.
+        </p>
+        <a href="#" class="btn"> Read More</a>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- portfolio section design -->
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="./images/nodeCluster.png" alt="" />
+        <div class="portfolio-layer">
+          <h4>Cluster Backend server</h4>
+          <p>
+            Clusters of Node.js processes can be used to run multiple instances of Node.js that can distribute workloads among their application threads...
+          </p>
+          <a href="https://github.com/mastervishu/cluster-server.git" target="_blank"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="./images/cesium-logo-globe.avif" alt="" />
+        <div class="portfolio-layer">
+          <h4>Real-Time 3D simulation</h4>
+          <p>
+            This project demonstrates a real-time 3D simulation powered by Socket.IO for real-time communication, Express.js for server-side logic, HTTP for data transfer, and React for the frontend interface
+          </p>
+          <a href="https://github.com/mastervishu/real-time-3d-simulation.git" target="_blank"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+      <div class="portfolio-box">
+        <img src="./images/nodeBackend.png" alt="" />
+        <div class="portfolio-layer">
+          <h4>Fantasy Cricket</h4>
+          <p>
+            Welcome to the Fantasy Cricket App This guide will help you set up and run the application on your local machine.
+          </p>
+          <a href="https://github.com/mastervishu/fantasy-cricket.git" target="_blank"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="./images/reactWithRedux.jpg" alt="" />
+        <div class="portfolio-layer">
+          <h4>React with redux {CRUD}</h4>
+          <p>
+            This is a personal portfolio website built using React and Redux. It showcases my skills, projects, and experience as a web developer. The site is designed to be visually appealing, user-friendly, and responsive across different devices..
+          </p>
+          <a href="https://github.com/mastervishu/Todo.git" target="_blank"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="images/oAuth.png" alt="" />
+        <div class="portfolio-layer">
+          <h4>OAuth application</h4>
+          <p>
+            This is an OAuth application built using the MERN stack (MongoDB, Express.js, React, Node.js). It allows users to authenticate and authorize with external providers like Google, Facebook, or GitHub. Once authenticated, users can access protected resources within the application.
+          </p>
+          <a href="https://github.com/mastervishu/Customer-Service-App.git" target="_blank"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="./images/libraryManagement.webp" alt="" />
+        <div class="portfolio-layer">
+          <h4>Mini Library</h4>
+          <p>
+            This is a library management system built using Python Object-Oriented Programming (OOP) principles. It provides a comprehensive solution for managing books, members, and loans in a library environment.
+          </p>
+          <a href="https://github.com/mastervishu/Mini-Project-Library.git" target="_blank"><i class="bx bx-link-external"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact section design -->
+
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>ME!</span> coming soon</h2>
+    <form action="#">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name" />
+        <input type="email" placeholder="Email Address" />
+      </div>
+
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number" />
+        <input type="text" placeholder="Email Subject" />
+      </div>
+      <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn" />
+    </form>
+  </section>
+
+  <!-- footer design -->
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Copyright &copy; 2024 by mastervishu | All Rights Reserved.</p>
+    </div>
+    <div class="footer-icontop">
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </footer>
+
+  <!-- scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- typed js -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- custom js -->
+  <script src="js/script.js"></script>
+</body>
+
+</html>
