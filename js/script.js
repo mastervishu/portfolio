@@ -43,7 +43,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*==================== Typed.js Initialization ====================*/
 const typed =new Typed ('.multiple-text',{
-    strings: ['Mern Stack Developer'],
+    strings: ['Software Engineer'],
     typeSpeed:100,
     backSpeed:100,
     backdelay:1000,
